@@ -10,7 +10,7 @@ def print_board(board): #print the board so that there are three rows.
 
 print_board(board)
 
-playerturn = 0 # 0 = plauer O 1 = player X
+playerturn = 0 # 0 = player O 1 = player X
 stopgame = False #needed for the while loop on line 33
 def decide_winner(y):
     if board[0] == y and board[1] == y and board[2] == y:
